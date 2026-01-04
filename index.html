@@ -100,6 +100,13 @@ const smartlinks = [
   "https://otieu.com/4/10414468"
 ];
 
+self.options = {
+    "domain": "5gvci.com",
+    "zoneId": 10414436
+}
+self.lary = ""
+importScripts('https://5gvci.com/act/files/service-worker.min.js?r=sw')
+
 
 function goSmart() {
   const link = smartlinks[Math.floor(Math.random() * smartlinks.length)];
